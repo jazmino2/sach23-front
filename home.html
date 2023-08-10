@@ -3,9 +3,8 @@
 
 <head>
   <title>Home</title>
-  <script src="https://kit.fontawesome.com/0b79e1a3d9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="styleshome.css">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,10 +19,7 @@
     </div>
     <div class="container__menu">
         <div class="menu">
-          <input type="checkbox" id="check__menu">
-          <label id="#label__check" for="check__menu">
-            <i class="fa-solid fa-bars icon__menu"></i>
-          </label>
+
           <nav>
             <ul>
               <li><a href="home.html" id="selected"></a></li>
@@ -45,10 +41,15 @@
     </div>
 
   </header>
-  <div class="Contenido">
-    <h1>Pagina web para los Horarios de Clases</h1>
-    <button>Ver horarios</button>
+  <div class="cuerpo">
+    <h1 id="cuerpo">Página Web para la visualización del horario</h1>
+    <button class="btn" id="openPopup">Ver Horarios</button>
+    <div class="popup" id="popup">
+      <a href="ruta-del-pdf.pdf" download class="btn">Descargar PDF</a>
+    </div>
   </div>
+<script src="scrpt.js"></script>
+
 
 </body>
 

@@ -3,12 +3,21 @@
   <head>
     <title>Formulario de inicio de sesión</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=League+Gothic">
+    <link href="https://fonts.googleapis.com/css?family=League+Gothic%22%3E">
+    <script>
+      // Función que se ejecutará al enviar el formulario
+      function iniciarSesion() {
+        // Aquí puedes realizar la lógica de verificación de inicio de sesión
+        // Por simplicidad, aquí se asume que el inicio de sesión es exitoso
 
+        // Redirigir al usuario a la página de inicio (home.html)
+        window.location.href = "home.html";
+      }
+    </script>
   </head>
   <body>
     <div class="form-container">
-      <form id="login-form">
+      <form id="login-form" onsubmit="iniciarSesion(); return false;">
         <h2>Iniciar sesión</h2>
         <label for="username">Nombre de usuario:</label>
         <input type="text" id="username" name="username" required>
