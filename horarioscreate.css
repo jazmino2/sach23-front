@@ -232,26 +232,3 @@ nav ul li ul li a:hover{
     opacity: 1;
   }
 }
-/*FIN DEL HEADERRRRR*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("/imagenes/colegio.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  padding: 100px;
- 
-}
-.contenido{
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: 'Lilita One';
-  
-}
