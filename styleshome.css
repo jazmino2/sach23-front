@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+3&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Lilita+One & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url(https://fonts.googleapis.com/css?family=Vibur);
 *{
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Vibur', cursive;
   text-decoration: none;
 }
 
@@ -53,6 +54,7 @@ header{
 }
 .nav{
   height: 100%;
+  font-family: 'Source Sans 3', sans-serif;
 
 }
 nav > ul{
@@ -106,12 +108,12 @@ nav > ul > li> a:hover{
 }
 
 nav ul li ul{
-  width: 200px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   background: #fff;
   position: absolute;
-  top: 90px;
+  top: 50px;
   left: -5px;
   padding: 20px 0px;
   visibility: hidden;
@@ -144,7 +146,7 @@ nav ul li ul li a{
   color: #ac848c;
   padding: 6px;
   padding: 14px;
-  margin-top: 10px;
+  margin-top: -10px;
   font-size: 14px;
   text-transform: uppercase;
   transition: all 300ms ease;
@@ -174,7 +176,7 @@ nav ul li ul li a:hover{
     background-color: #734c54;
     position: fixed;
     left: 0;
-    top: 158px;
+    top: 150px;
     width: 100%;
     height: 300px;
     transition: all 300ms ease;
@@ -208,7 +210,6 @@ nav ul li ul li a:hover{
   cursor: pointer;
 }
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -238,8 +239,8 @@ body {
 }
 .cuerpo h1{
   font-size: 40px;
-  font-family: 'Bebas Neue';
   color: #fff;
+  text-transform: uppercase;
 
 }
 .cuerpo{

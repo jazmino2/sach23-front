@@ -6,16 +6,17 @@ body {
   }
   
   .container {
-    width: 50%;
+    width: 20%;
     margin: auto;
     margin-top: 50px;
-    background-color: #f2f2f202;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    
   }
   
   h2 {
     text-align: center;
+    color: #867aaa;
   }
   
   .form-group {
